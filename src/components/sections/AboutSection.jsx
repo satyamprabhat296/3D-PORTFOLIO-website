@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-const AboutSection = () => {
+import resume from "../../assets/My_Resume (2) (1).pdf";const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-white dark:bg-black relative">
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-indigo-50 to-transparent dark:from-indigo-950/30 dark:to-transparent" />
@@ -42,8 +42,8 @@ const AboutSection = () => {
               My Journey
             </h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              I'm an aspiring Frontend Developer and loves
-              building responsive web applications. As an aspiring Frontend Developer, I love turning complex problems into clean, intuitive interfaces using technologies like React, Tailwind CSS, and JavaScript.
+              I'm an Mern Stack Developer and loves
+              building responsive web applications. As an aspiring Mern  Developer, I love turning complex problems into clean, intuitive interfaces using technologies like React, Tailwind CSS, and JavaScript.
 
 I enjoy learning new tools, 
 staying updated with the latest UI/UX trends,
@@ -72,7 +72,7 @@ staying updated with the latest UI/UX trends,
                 <CardContent className="p-4">
                   <h4 className="font-medium text-primary mb-2">Experience</h4>
                   <p className="text-muted-foreground">
-                    1+ Years of coding Experience
+                    3+ Years of coding Experience
                   </p>
                 </CardContent>
               </Card>
@@ -96,14 +96,15 @@ staying updated with the latest UI/UX trends,
               </Card>
             </div>
 
-            <a href="/resume.pdf" download>
-              <Button
-                className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-full"
-                size="lg"
-              >
-                <Download className="mr-2 h-4 w-4" /> Download Resume
-              </Button>
-            </a>
+            <a href={resume} download="Satyam_Prabhat_Singh_Resume.pdf">
+  <Button
+    className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-full"
+    size="lg"
+  >
+    <Download className="mr-2 h-4 w-4" />
+    Download Resume
+  </Button>
+</a>
           </div>
         </div>
       </div>
