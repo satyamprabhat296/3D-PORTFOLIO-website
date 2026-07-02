@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import resume from "../../assets/My_Resume (2) (1).pdf";const AboutSection = () => {
+import resume from "../../assets/Satyam_Prabhat_Resume.pdf";const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-white dark:bg-black relative">
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-indigo-50 to-transparent dark:from-indigo-950/30 dark:to-transparent" />
