@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import profileImage from "../../assets/IMG_20251102_171618420.jpg";
 const HeroSection = () => {
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
@@ -26,11 +27,11 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-indigo-900 dark:text-indigo-200">
               <span className="block">Hi, I'm </span>
               <span className="text-indigo-600 dark:text-indigo-400">
-                Alpha Developer
+                MERN STACK Developer
               </span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium mb-6 text-muted-foreground">
-              Fullstack Developer & Tech Enthusiast
+              MERN Developer & Tech Enthusiast
             </h2>
             <p className="text-lg mb-8 max-w-xl leading-relaxed text-muted-foreground">
               I build exceptional and accessible digital experiences for the
@@ -60,10 +61,10 @@ const HeroSection = () => {
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div className="relative w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-400 dark:border-indigo-600 shadow-xl animate-float">
               <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQGLHxqxSSaFMQ/profile-displayphoto-scale_400_400/B56ZjYFqfBHMAg-/0/1755972023323?e=1765411200&v=beta&t=KN3VMFSY4E3TyaBRuOD22WI7ymo-Tci0dicBLHRg9IU"
-                alt="Developer Profile"
-                className="w-full h-full object-cover"
-              />
+  src={profileImage}
+  alt="Developer Profile"
+  className="w-full h-full object-cover"
+/>
             </div>
           </div>
         </div>
