@@ -14,18 +14,18 @@ export const PROJECTS = [
     description: "A full-stack job  solution with ease of applying for jobs in various companies.",
     image: "https://th.bing.com/th/id/OIP.dEeONmKsD5bbaj5qOY0rNQHaE2?w=221&h=180&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3",
     tags: ["React", "Node.js", "MongoDB", "Stripe API"],
-    liveLink: "https://example.com/job-portal",
-    githubLink: "https://github.com/satyamprabhat296/job-portal-project"
+    liveLink: "https://job-hunter-project-gold.vercel.app/",
+    githubLink: "https://github.com/satyamprabhat296/Job-hunter-project"
   },
   {
     id: 2,
-    title: "HELLOFY-Ai Based language learning plateform",
+    title: "HELLOFY-Ai Based  real-time connection plateform",
     description: "A responsive website that provides plateform to pair and code collaboratively.",
         image: "https://th.bing.com/th/id/OIP.9Xp06j549HIsVzzpsC0d4wHaFj?w=183&h=180&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3",
 
 
     tags: ["React", "NodeJS",  "Tailwind CSS","MONGO"],
-    liveLink: "https://example.com/A+ Tutor Project",
+    liveLink: "https://hellofy-jet.vercel.app/",
     githubLink: "https://github.com/satyamprabhat296/Hellofy"
   },
   {
